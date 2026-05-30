@@ -112,3 +112,6 @@ def check4(s1, s2):
 
 result4 = check("python", "typhon")
 print(result4)
+
+# ord函数：可以将字符转换成在Unicode表中对应的数字
+# 解法4中，可建立含26个0的列表，将字符串中的字符利用ord函数转成Unicode表对应的字符，并在列表对应位置标记，最后再比较两个列表是否相同，从而判断是否是变位词
