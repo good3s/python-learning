@@ -8,3 +8,10 @@ time.sleep(10)
 b = time.time()
 print(b)
 print(b - a)
+
+
+# ord函数：可以将字符转换成在Unicode表中对应的数字，不仅限于英文
+print(ord('a'))
+print(ord('A'))
+print(ord('你'))
+print(ord(','))
